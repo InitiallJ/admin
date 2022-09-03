@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vue?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: root
+    password:
+
+server:
+  ip: localhost
+  port: 8082
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations:
+    - classpath:mapper/*.xml
+
+files:
+  upload:
+#    上传文件存放的位置
+    path: D:/SpringBoot Vue/files/
+#    path: /home/files

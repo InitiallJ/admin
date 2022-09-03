@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ml-5{
+   margin: 5px;
+}
+.pd-5{
+    padding: 5px;
+}
