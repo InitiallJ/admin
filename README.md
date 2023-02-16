@@ -8,7 +8,7 @@ SpringBoot2 + Vue2 + ElementUI + Axios + Hutool + Mysql + MybatisPlus
 
 ## 启动项目
 
-1.IDEA添加vue启动项,请自行安装前端环境：node.js,axios
+1.IDEA添加vue启动项,请自行安装前端环境：node.js
 
 2.分别选择下图中两个图标启动，启动完成后，在浏览器输入http：//localhost:8080回车进入主页面。
 
